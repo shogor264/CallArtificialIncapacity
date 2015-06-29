@@ -14,7 +14,7 @@ public class Main {
 		nameAry = new Name[] { Name.BYE, Name.SAME, Name.PATTERN, Name.TWEET, Name.WIKI, Name.GOOGLE, Name.SUGGEST,
 				Name.RANDOM };
 		// ツイッターなしのパターン
-		nameAry = new Name[] { Name.BYE, Name.SAME, Name.PATTERN, Name.WIKI, Name.GOOGLE, Name.SUGGEST, Name.RANDOM };
+//		nameAry = new Name[] { Name.BYE, Name.SAME, Name.PATTERN, Name.WIKI, Name.GOOGLE, Name.SUGGEST, Name.RANDOM };
 		ArtificialIncapacityUtil.createTalkList(nameAry);
 
 		while (true) {
